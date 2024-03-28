@@ -9,6 +9,7 @@ public class EmailValidator implements
     private String message;
     @Override
     public void initialize(EmailValidation constraintAnnotation) {
+
         message = constraintAnnotation.message();
     }
 
